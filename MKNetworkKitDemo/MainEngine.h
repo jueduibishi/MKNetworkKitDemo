@@ -24,11 +24,20 @@ typedef void (^ResponseBlock)(NSString *responseString);
                             completionHandler:(ResponseBlock)completionBlock
                                  errorHandler:(MKNKErrorBlock)errorBlock;
 
+/*----
+NSString *file = [[[NSBundle mainBundle] resourcePath] stringByAppendingFormat:@"/SampleImage.jpg"];
+----*/
 -(MKNetworkOperation*) uploadWithPath:(NSString*)urlString
                                params:(NSDictionary*)body
                                file:(NSString*)file
                            completionHandler:(ResponseBlock)completionBlock
                                 errorHandler:(MKNKErrorBlock)errorBlock;
+
+/*----
+NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+NSString *cachesDirectory = paths[0];
+NSString *filePath = [cachesDirectory stringByAppendingPathComponent:@"DownloadedFile.pdf"];
+ ----*/
 -(MKNetworkOperation*) downloadFatAssFileFrom:(NSString*)remoteURL
                                        toFile:(NSString*)filePath;
 -(void) emptyCache;
