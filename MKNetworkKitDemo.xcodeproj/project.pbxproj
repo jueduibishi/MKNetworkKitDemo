@@ -35,6 +35,7 @@
 		0B1F15C718BDC84B00079AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1F15C618BDC84B00079AFF /* ViewController.m */; };
 		0B1F15CA18BDC99100079AFF /* MainEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1F15C918BDC99100079AFF /* MainEngine.m */; };
 		0B96FAF818BEE0E6001AD58D /* WholeDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B96FAF718BEE0E6001AD58D /* WholeDefine.m */; };
+		0BD55BB72B2AA1CB008BF4C3 /* fujian.m3u in Resources */ = {isa = PBXBuildFile; fileRef = 0BD55BB62B2AA1CB008BF4C3 /* fujian.m3u */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		0B1F15C918BDC99100079AFF /* MainEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEngine.m; sourceTree = "<group>"; };
 		0B96FAF618BEE0E6001AD58D /* WholeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WholeDefine.h; sourceTree = "<group>"; };
 		0B96FAF718BEE0E6001AD58D /* WholeDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WholeDefine.m; sourceTree = "<group>"; };
+		0BD55BB62B2AA1CB008BF4C3 /* fujian.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fujian.m3u; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		0B1F156018BDC5EF00079AFF = {
 			isa = PBXGroup;
 			children = (
+				0BD55BB62B2AA1CB008BF4C3 /* fujian.m3u */,
 				0B1F157218BDC5EF00079AFF /* MKNetworkKitDemo */,
 				0B1F158B18BDC5EF00079AFF /* MKNetworkKitDemoTests */,
 				0B1F156B18BDC5EF00079AFF /* Frameworks */,
@@ -303,6 +306,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0B1F156018BDC5EF00079AFF;
@@ -323,6 +327,7 @@
 			files = (
 				0B1F157718BDC5EF00079AFF /* InfoPlist.strings in Resources */,
 				0B1F157F18BDC5EF00079AFF /* Images.xcassets in Resources */,
+				0BD55BB72B2AA1CB008BF4C3 /* fujian.m3u in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
