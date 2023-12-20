@@ -1,6 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-MEDIA-SEQUENCE:0
 #EXTINF:-1 ,cctv1综合频道
 http://180.97.247.27/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel1/index.m3u8
 #EXTINF:-1 ,cctv1综合频道
